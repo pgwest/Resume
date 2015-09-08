@@ -1,0 +1,11 @@
+
+.leftColumn {
+	background-color: red;
+	float : left;
+}
+
+.col-md-10 {
+	border : solid black 8px;
+
+}
+
