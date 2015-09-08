@@ -1,0 +1,26 @@
+
+
+
+html { 
+background: url(images/bg.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#main_row {
+	border-top:solid black 2px;
+	border-bottom: solid black 2px;
+	margin-bottom: 10px;
+}
+
+#leftColumn {
+	border-right: solid red 2px;
+}
+
+.col-md-10 {
+
+}
+
+
