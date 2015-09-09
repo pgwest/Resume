@@ -2,15 +2,14 @@
 
 
 html { 
-background: url(images/bg.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	background: url(dark_embroidery.png);
+		background-repeat: repeat; 
+		top; 
 }
 
 body {
 	font-family: sans-serif;
+
 }
 
 strong {
@@ -27,14 +26,20 @@ h2 {
 	 text-decoration:underline; 
 }
 
+a {
+		background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
+}
+
 #main_row {
-	border-top:solid black 2px;
+/*	border-top:solid black 2px;
 	border-bottom: solid black 2px;
-	margin-bottom: 10px;
+*/	margin-bottom: 10px;
 }
 
 #leftColumn {
-	border-right: solid red 2px;
+	border-right: solid black 2px;
 }
 
 #number {
@@ -73,37 +78,95 @@ h2 {
 #header {
 	display : inline;
 	margin-bottom: 35px;
-	background-color: #ffffff;
-	background-position: auto;
+	/*background-color: #ffffff;
+	background-position: auto;*/
+		background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
 	text-align: center;
 }
 
+
 .container-fluid {
-		background: url(http://uploads6.wikiart.org/images/georges-seurat/the-river-seine-at-la-grande-jatte-1888.jpg!Blog.jpg) 
-		no-repeat top; 
-		background-size: 100% 170px;
+		background: url(https://github.com/pgwest/Resume/blob/master/dark_embroidery.png?raw=true);
+		background-repeat: repeat; 
+		top; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
+	z-index: 1;
 }
 
 .col-md-12 {
 	background-color: #fff; 
 	margin-bottom: 10px;
+	z-index: 2;
+	background: url(concrete_seamless.png);
+	background-repeat: repeat; 
+	top; 
 }
 
 .col-md-10 {
 	margin-top: 10px;
+	z-index: 3;	
+/*	background-color: #ffffff;
+	opacity: 1; 
+	
+	color:black;*/
+	background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
+	font-size: 23px;
 }
 
+
 .col-md-2 {
-	border: solid red;
+	margin-top: 10px;
+	z-index: 4;
+	background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
 }
+
 
 .workExperience {
 	display: inline;
 	border-bottom: solid black 2px;
 }
 
+.thumbnail {
+	border: 1px solid black;
+	margin-top: 10px;
+}
+
+.headshot {
+	position: absolute;
+	right: 15%;
+	top: 7%;
+	width: 30%;
+	z-index: 7;
+	border-radius: 40%;
+}
+
+
+
+
+/*.col-md-3 {
+	background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
+}*/
+
+/*.col-md-offset-5 {
+		background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
+}
+
+.col-md-9 {
+		background: url(concrete_seamless.png);
+		background-repeat: repeat; 
+		top; 
+}*/
 
 
