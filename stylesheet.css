@@ -126,6 +126,7 @@ a {
 	background: url(concrete_seamless.png);
 		background-repeat: repeat; 
 		top; 
+		font-size: 22px;
 }
 
 
@@ -141,8 +142,8 @@ a {
 
 .headshot {
 	position: absolute;
-	right: 15%;
-	top: 7%;
+	right: 10%;
+	top: 5%;
 	width: 30%;
 	z-index: 7;
 	border-radius: 40%;
