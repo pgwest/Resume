@@ -142,12 +142,13 @@ a {
 
 .headshot {
 	position: absolute;
-	right: 10%;
-	top: 5%;
+	right: 130px;
+	top: 150px;
 	width: 30%;
 	z-index: 7;
 	border-radius: 40%;
 }
+
 
 
 
