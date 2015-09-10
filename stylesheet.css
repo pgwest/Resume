@@ -126,7 +126,7 @@ a {
 	background: url(concrete_seamless.png);
 		background-repeat: repeat; 
 		top; 
-		font-size: 22px;
+		font-size: 18px;
 }
 
 
@@ -142,12 +142,22 @@ a {
 
 .headshot {
 	position: absolute;
-	right: 130px;
-	top: 150px;
+	right: 90px;
+	top: 60px;
 	width: 30%;
 	z-index: 7;
 	border-radius: 40%;
 }
+
+.thumbnailImage{
+	border-radius = 15px;
+}
+
+
+.silverveuLogo{
+	border-radius = 15px;
+}
+
 
 
 
